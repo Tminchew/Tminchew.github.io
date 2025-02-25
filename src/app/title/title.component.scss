@@ -1,8 +1,18 @@
 .h1 {
     color: #cad2c5;
-    font-size: 75px;
+    font-size: 40px;
+    z-index: 3;
+    font-weight: bold;
 }
-.p {
+.h2 {
+    color: #cad2c5;
+    font-size: 20px;
+    z-index: 3;
+    margin-top: 12px;
+}
+.h3 {
     color: #839e89;
-    font-size: 30px;
+    font-size: 15px;
+    z-index: 3;
+    margin-top: 16px;
 }

@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { TitleComponent } from "./title/title.component";
 import { ScreenLayoutComponent } from "./screen-layout/screen-layout.component";
+import { SpotlightComponent } from './spotlight/spotlight.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ScreenLayoutComponent],
+  imports: [RouterOutlet, ScreenLayoutComponent, SpotlightComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

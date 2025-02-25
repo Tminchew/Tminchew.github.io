@@ -1,6 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
-@import "tailwindcss";
-
 body {
     background-color: #1e302b;
+    z-index: 1
 }
+.spotlight {
+    position: fixed;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.025) 10%, rgba(255, 255, 255, 0.001) 80%);
+    pointer-events: none; /* allows click events to pass through */
+    transform: translate(-50%, -50%);
+
+    z-index: 2; /* ensure it's on top */
+  }
+  div {
+    z-index: 3;
+  }
