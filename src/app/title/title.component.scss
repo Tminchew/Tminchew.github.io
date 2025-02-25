@@ -3,6 +3,7 @@
     font-size: 40px;
     z-index: 3;
     font-weight: bold;
+    margin-top: 0px;
 }
 .h2 {
     color: #cad2c5;
@@ -15,4 +16,6 @@
     font-size: 15px;
     z-index: 3;
     margin-top: 16px;
+    text-wrap: wrap;
+    width: 60%
 }

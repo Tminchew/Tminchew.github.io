@@ -15,4 +15,11 @@ body {
   }
   div {
     z-index: 3;
+    font-family: sans-serif;
   }
+
+  ::selection{
+    background-color: #cad2c5;
+    color:#333333
+  }
+  
