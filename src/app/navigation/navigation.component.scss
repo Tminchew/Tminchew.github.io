@@ -1,0 +1,44 @@
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav {
+    margin-bottom: 5%; 
+    color: #cad2c5;
+    margin-top: auto;
+}
+
+.nav a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.nav-indicator {
+    display: inline-block;
+    height: 2px; 
+    width: 30px; 
+    background-color: #839e89; 
+    transition: all 0.3s ease; 
+    margin-right: 8px; 
+}
+
+.nav a:hover .nav-indicator,
+.nav a:focus .nav-indicator {
+    width: 60px; 
+    background-color: #cad2c5;
+}
+
+.nav a:hover .nav-text,
+.nav a:focus .nav-text {
+    color: #cad2c5;
+}
+
+.nav span {
+    align-items: center;
+    margin-bottom: 0;
+    font-size: small;
+    color:#839e89
+}
