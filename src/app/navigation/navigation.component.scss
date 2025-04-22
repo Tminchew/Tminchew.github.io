@@ -1,6 +1,12 @@
+.menu {
+    margin-top: 64px; 
+    margin-bottom: 64px;
+}
+
 .menu-list {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 .nav {
@@ -25,6 +31,13 @@
     margin-right: 8px; 
 }
 
+.nav span {
+    align-items: center;
+    margin-bottom: 0;
+    font-size: small;
+    color:#839e89
+}
+
 .nav a:hover .nav-indicator,
 .nav a:focus .nav-indicator {
     width: 60px; 
@@ -36,9 +49,3 @@
     color: #cad2c5;
 }
 
-.nav span {
-    align-items: center;
-    margin-bottom: 0;
-    font-size: small;
-    color:#839e89
-}

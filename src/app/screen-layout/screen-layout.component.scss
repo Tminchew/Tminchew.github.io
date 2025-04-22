@@ -27,6 +27,21 @@
 
 .row {
     display: flex;
-    padding-top: 96px;
     justify-content: space-between;
+    overflow: visible; /* Ensure no overflow restrictions */
+    
+}
+
+.columnLeft {
+    padding-top: 96px;
+    position: sticky; /* Make the left column sticky */
+    top: 0; /* Stick to the top of the viewport */
+    align-self: flex-start; /* Ensure it aligns properly */
+    flex-direction: column;
+    padding-bottom: 96px;;
+}
+
+.columnRight {
+    padding-top: 96px;
+    overflow: auto; /* Allow scrolling for the right column */
 }

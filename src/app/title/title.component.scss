@@ -1,21 +1,26 @@
 .h1 {
     color: #cad2c5;
-    font-size: 40px;
+    font-size: 42px;
     z-index: 3;
     font-weight: bold;
     margin-top: 0px;
+    font-family: sans-serif
 }
 .h2 {
     color: #cad2c5;
     font-size: 20px;
     z-index: 3;
     margin-top: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
 }
 .h3 {
+    line-height: 150%;
     color: #839e89;
     font-size: 15px;
     z-index: 3;
     margin-top: 16px;
     text-wrap: wrap;
-    width: 60%
+    width: 80%;
+    font-family: sans-serif
 }

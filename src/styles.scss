@@ -1,13 +1,14 @@
 body {
     background-color: #1e302b;
-    z-index: 1
+    z-index: 1;
+    margin: 0;
 }
 .spotlight {
     position: fixed;
     width: 1000px;
     height: 1000px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.03) 10%, rgba(255, 255, 255, 0.001) 80%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.05) 10%, rgba(255, 255, 255, 0.025) 30%, rgba(255, 255, 255, 0.001) 60%);
     pointer-events: none;
     transform: translate(-50%, -50%);
 
