@@ -61,3 +61,11 @@ For more information on using the Angular CLI, including detailed command refere
 ## Deployment 
 
 ```ng deploy --base-href=Tminchew.github.io```
+
+## Site URL:
+
+https://tminchew.github.io/Tminchew.github.io/
+
+## Angular cli ghpages
+
+https://github.com/angular-schule/angular-cli-ghpages/?tab=readme-ov-file#options

@@ -9,5 +9,5 @@ import { Component } from '@angular/core';
 export class TitleComponent {
   name: String = "Thomas Minchew"
   role: String = "Full-Stack Engineer"
-  desc: String = "I build full-stack apps with experience developing for fortune 500 companies."
+  desc: String = "Delivering Full-Stack applications with excellence."
 }

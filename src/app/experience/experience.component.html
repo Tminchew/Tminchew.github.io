@@ -1,0 +1,28 @@
+<div class="experience" id="experience">
+    <div *ngFor="let job of jobs">
+        <div class="job-block">
+            <div class="job-block-date">
+                <span class="date">{{job.date}}</span>
+            </div>
+            <div>
+                <div class="job-block-title">
+                    <span>
+                        <a class="job-title" href="{{job.url}}" target="_blank">{{job.title}} - {{job.company}} </a>    
+                        <div class="arrow">
+                            <div class="arrow-top"></div>
+                            <div class="arrow-bottom"></div>
+                        </div>
+                    </span>
+                </div>
+                <div class="job-block-description">
+                    <span class="description">{{job.desc}}</span>
+                </div>
+                <div class="job-block-tech">
+                    <div *ngFor="let tech of job.technologies">
+                            <span class="tech-name">{{tech}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

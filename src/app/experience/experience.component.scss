@@ -1,0 +1,74 @@
+.job-block {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-radius: 5px;
+    padding-bottom: 24px;
+    padding-top: 16px;
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+    opacity: 1;
+}
+.job-block:hover {
+    background-color: #283f38;
+    transition: all 0.3s ease;
+}
+
+/* Make all non-hovered job-blocks opaque when one is hovered */
+.experience:hover .job-block {
+    opacity: 0.5; /* Reduce opacity for all job-blocks */
+}
+
+.experience:hover .job-block:hover {
+    opacity: 1; /* Keep the hovered job-block fully visible */
+}
+
+.job-block-title :hover{
+    color: #83e04a;
+    transition: all 0.3s ease;
+};
+
+
+.job-block-date {
+    width: 25%;
+    font-size: 14px;
+    color: #839e89;
+    flex-shrink: 0;
+    padding-right: 24px;
+}
+.job-block-title {
+    font-size: 18px;
+    color: #cad2c5;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.job-block-title a {
+    text-wrap: nowrap;
+    font-family: sans-serif;
+    color: #cad2c5;
+    text-decoration: none;
+}
+.job-block-description {
+    font-size: 14px;
+    color: #839e89;
+    font-family: sans-serif;
+    padding-bottom: 16px;
+    padding-top: 8px;
+}
+
+span {
+    font-family: sans-serif;
+}
+
+.job-block-tech {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tech-name {
+    background-color: #a6e28418;
+    border-radius: 15px;
+    color: #83e04a;
+    font-size: 14px;
+    padding: 8px;
+}

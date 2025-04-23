@@ -1,11 +1,16 @@
 <div class="layout">
-    <div class = "row">
-        <div class = "column" style="flex: 45;">
-            <app-title></app-title>
-        </div>
-        <div class = "column" style="flex: 55;">
-            <div style="overflow: auto;">
-                <app-about-me></app-about-me>
+    <div class="row">
+        <header class = "columnLeft" style="width: 40%;">
+            <div style="height: 100%;">
+                <app-title></app-title>
+                <app-navigation></app-navigation>
+                <app-bottom-icons></app-bottom-icons>
+            </div>
+        </header>
+        <div class = "columnRight" style="width: 55%;">
+            <div style="height: max-content;">
+                    <app-about-me></app-about-me>
+                    <app-experience></app-experience>
             </div>
         </div>
     </div>

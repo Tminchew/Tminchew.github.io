@@ -1,17 +1,8 @@
-
-    .about-me {
-        line-height: 150%;
-        z-index: 3;
-        font-family: sans-serif;
-        color: #839e89;
-        font-size: 15px;
-        width: 80%;
-        word-spacing: 0.1rem;
-        line-height: 1.4;
-    }
-
-    .column-container {
-        display: flex;
-        flex-direction: column; /* Stacks children vertically */
-        gap: 1rem; /* Optional: adds space between items */
-      }
+.about {
+    line-height: 150%;
+    z-index: 3;
+    font-family: sans-serif;
+    color: #839e89;
+    font-size: 16px;
+    margin-bottom: 96px;
+}
