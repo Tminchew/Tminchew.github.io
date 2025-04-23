@@ -11,5 +11,5 @@ import { SpotlightComponent } from './spotlight/spotlight.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'Tminchew.github.io';
+  title = 'Thomasminchew.Com';
 }
