@@ -97,10 +97,7 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "options": {
-            "cname": "Tminchew.com"
-          }
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
