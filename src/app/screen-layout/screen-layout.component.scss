@@ -5,16 +5,12 @@
     max-width: 1280px; /* Tailwind's max-w-screen-xl */
     padding-left: 1.5rem; /* 6px */
     padding-right: 1.5rem; /* 6px */
-    padding-top: 3rem; /* 12px */
-    padding-bottom: 3rem; /* 12px */
 }
 
 @media (min-width: 768px) { /* md breakpoint */
     .layout {
         padding-left: 3rem;
         padding-right: 3rem;
-        padding-top: 4rem;
-        padding-bottom: 4rem;
     }
 }
 
@@ -47,5 +43,43 @@
 
 .columnRight {
     padding-top: 96px;
-    overflow: auto;
+    padding-bottom: 96px;
+    scroll-padding-top: 96px;
+}
+
+.resume-text {
+    text-decoration: none;
+    font-size: 16px;
+    color: #cad2c5;
+    font-family: sans-serif;
+    font-weight: 550;
+
+    &:hover .img-hover {
+        background-image: url(../../../public/newwindow-h.png);
+        transition: all 0.3s ease;
+    }
+}
+
+.resume-link :hover{
+    color: #83e04a;
+    transition: all 0.3s ease;
+}
+
+.resume-icon {
+    vertical-align: middle;
+    
+}
+
+.resume-link {
+    padding-top: 32px;
+}
+
+.img-hover {
+    height: 16px;
+    width: 16px;
+    background-image: url(../../../public/newwindow.png);
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+    translate: -2px -2px;
 }

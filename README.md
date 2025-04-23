@@ -1,4 +1,4 @@
-# TminchewGithubIo
+# ThomasMinchew.Com
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.8.
 
@@ -60,11 +60,11 @@ For more information on using the Angular CLI, including detailed command refere
 
 ## Deployment 
 
-```ng deploy --base-href=Tminchew.github.io```
+```ng deploy --base-href=thomasminchew.com```
 
 ## Site URL:
 
-https://tminchew.github.io/Tminchew.github.io/
+https://tminchew.github.io/thomasminchew.com/
 
 ## Angular cli ghpages
 
