@@ -24,7 +24,63 @@ export class ExperienceComponent {
       date: "May - Dec 2023",
       desc: "Cloud Data Engineering Intern. Developed data pipelines using Python and Azure Services like Databricks, Data lake storage, and Data Factory.",
       technologies: [] = ["Python", "ADB", "ADF", "Blob Storage", "ADLS"]
-    }
+    },
+    {
+      company: "American Airlines",
+      url: "https://www.aa.com",
+      title: "SDE Intern",
+      date: "May - Dec 2023",
+      desc: "Cloud Data Engineering Intern. Developed data pipelines using Python and Azure Services like Databricks, Data lake storage, and Data Factory.",
+      technologies: [] = ["Python", "ADB", "ADF", "Blob Storage", "ADLS"]
+    },
+    {
+      company: "American Airlines",
+      url: "https://www.aa.com",
+      title: "SDE Intern",
+      date: "May - Dec 2023",
+      desc: "Cloud Data Engineering Intern. Developed data pipelines using Python and Azure Services like Databricks, Data lake storage, and Data Factory.",
+      technologies: [] = ["Python", "ADB", "ADF", "Blob Storage", "ADLS"]
+    },
+    {
+      company: "American Airlines",
+      url: "https://www.aa.com",
+      title: "SDE Intern",
+      date: "May - Dec 2023",
+      desc: "Cloud Data Engineering Intern. Developed data pipelines using Python and Azure Services like Databricks, Data lake storage, and Data Factory.",
+      technologies: [] = ["Python", "ADB", "ADF", "Blob Storage", "ADLS"]
+    },
+    {
+      company: "American Airlines",
+      url: "https://www.aa.com",
+      title: "SDE Intern",
+      date: "May - Dec 2023",
+      desc: "Cloud Data Engineering Intern. Developed data pipelines using Python and Azure Services like Databricks, Data lake storage, and Data Factory.",
+      technologies: [] = ["Python", "ADB", "ADF", "Blob Storage", "ADLS"]
+    },
+    {
+      company: "American Airlines",
+      url: "https://www.aa.com",
+      title: "SDE Intern",
+      date: "May - Dec 2023",
+      desc: "Cloud Data Engineering Intern. Developed data pipelines using Python and Azure Services like Databricks, Data lake storage, and Data Factory.",
+      technologies: [] = ["Python", "ADB", "ADF", "Blob Storage", "ADLS"]
+    },
+    {
+      company: "American Airlines",
+      url: "https://www.aa.com",
+      title: "SDE Intern",
+      date: "May - Dec 2023",
+      desc: "Cloud Data Engineering Intern. Developed data pipelines using Python and Azure Services like Databricks, Data lake storage, and Data Factory.",
+      technologies: [] = ["Python", "ADB", "ADF", "Blob Storage", "ADLS"]
+    },
+    {
+      company: "American Airlines",
+      url: "https://www.aa.com",
+      title: "SDE Intern",
+      date: "May - Dec 2023",
+      desc: "Cloud Data Engineering Intern. Developed data pipelines using Python and Azure Services like Databricks, Data lake storage, and Data Factory.",
+      technologies: [] = ["Python", "ADB", "ADF", "Blob Storage", "ADLS"]
+    },
   ];
 
 }

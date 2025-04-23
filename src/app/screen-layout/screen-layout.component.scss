@@ -11,14 +11,14 @@
 
 @media (min-width: 768px) { /* md breakpoint */
     .layout {
-        padding-left: 3rem; /* 12px */
-        padding-right: 3rem; /* 12px */
-        padding-top: 4rem; /* 16px */
-        padding-bottom: 4rem; /* 16px */
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
     }
 }
 
-@media (min-width: 1024px) { /* lg breakpoint */
+@media (min-width: 1024px) {
     .layout {
         padding-top: 0;
         padding-bottom: 0;
@@ -28,20 +28,24 @@
 .row {
     display: flex;
     justify-content: space-between;
-    overflow: visible; /* Ensure no overflow restrictions */
-    
+    overflow: visible;
+    min-height: 100vh;
 }
 
 .columnLeft {
     padding-top: 96px;
-    position: sticky; /* Make the left column sticky */
-    top: 0; /* Stick to the top of the viewport */
-    align-self: flex-start; /* Ensure it aligns properly */
+    padding-bottom: 96px;
+    position: sticky;
+    top: 0;
+    display: flex;
     flex-direction: column;
-    padding-bottom: 96px;;
+    justify-content: space-between;
+    flex-grow: 1;
+    height: calc(100vh - 192px);
+    align-self: stretch; /* or remove */
 }
 
 .columnRight {
     padding-top: 96px;
-    overflow: auto; /* Allow scrolling for the right column */
+    overflow: auto;
 }
