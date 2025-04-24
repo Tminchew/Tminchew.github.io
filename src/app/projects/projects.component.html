@@ -1,0 +1,28 @@
+<div class="project" id="projects">
+    <div *ngFor="let project of projects">
+        <div class="project-block">
+            <div class="project-block-date">
+                <img src="{{project.image}}" alt="No Image :(" class="project-image" />
+            </div>
+            <div>
+                <div class="project-block-title">
+                    <span>
+                        <a class="project-title" href="{{project.url}}" target="_blank">{{project.title}} - {{project.company}} </a>    
+                        <div class="arrow">
+                            <div class="arrow-top"></div>
+                            <div class="arrow-bottom"></div>
+                        </div>
+                    </span>
+                </div>
+                <div class="project-block-description">
+                    <span class="description">{{project.desc}}</span>
+                </div>
+                <div class="project-block-tech">
+                    <div *ngFor="let tech of project.technologies">
+                            <span class="tech-name">{{tech}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

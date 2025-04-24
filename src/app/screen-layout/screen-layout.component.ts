@@ -4,11 +4,12 @@ import { AboutMeComponent } from "../about-me/about-me.component";
 import { BottomIconsComponent } from '../bottom-icons/bottom-icons.component';
 import { NavigationComponent } from '../navigation/navigation.component';
 import { ExperienceComponent } from '../experience/experience.component';
+import { ProjectsComponent } from '../projects/projects.component';
 
 @Component({
   selector: 'app-screen-layout',
   standalone: true,
-  imports: [TitleComponent, AboutMeComponent, BottomIconsComponent, NavigationComponent, ExperienceComponent],
+  imports: [TitleComponent, AboutMeComponent, BottomIconsComponent, NavigationComponent, ExperienceComponent, ProjectsComponent],
   templateUrl: './screen-layout.component.html',
   styleUrl: './screen-layout.component.scss'
 })
