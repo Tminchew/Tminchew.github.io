@@ -17,21 +17,21 @@ export class ProjectsComponent {
       technologies: ["Angular", "TypeScript", "SCSS"]
     },
     {
-      title: "Project 1",
-      desc: "This is a funny test description for a project. It is a test description for a project. It is a test description for a project. It is a test description for a project.",
-      url: "",//TODO: Add URL and Image
+      title: "Internet Pinball Database (IPDB)",
+      desc: "Worked with Legacy site owner to overhaul the IPDB site. Improved user experience by automating pinball page entries.",
+      url: "https://www.ipdb.org/",//TODO: Add URL and Image
       img: "",
-      technologies: ["Angular", "TypeScript", "SCSS"]
+      technologies: []
     },
     {
-      title: "Project 2",
+      title: "Project 3",
       desc: "A slightly better test description for a project. Copilot can't generate good descriptions.",
       url: "",//TODO: Add URL and Image
       img: "",
       technologies: ["Angular", "TypeScript", "SCSS"]
     },
     {
-      title: "Project 2",
+      title: "Project 4",
       desc: "A slightly better test description for a project. Copilot can't generate good descriptions.",
       url: "",//TODO: Add URL and Image
       img: "",
